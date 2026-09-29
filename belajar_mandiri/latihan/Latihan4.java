@@ -13,7 +13,7 @@ public class Latihan4 {
          System.out.println("Masukan nilai ke-"+ i + " : ");
          mahasiswa[i] = scanner.nextInt();
 
-         System.out.println("Mahasiswa ke-"+1+" : "+ mahasiswa[i]);
+         System.out.println("Mahasiswa ke-"+i+" : "+ mahasiswa[i]);
         }
        
         do{
