@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Introduce {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         int umur = 10;
         int umurMasaDepan = umur + 12;
         String nama = "Nakhalan";
@@ -20,6 +21,14 @@ public class Introduce {
     //contoh membuat sebuah objek
     Dog dog1 = new Dog();
     dog1.barking();
+
+
+    System.out.print("Masukan sebuah nama: ");
+    String name = scanner.nextLine();
+    
+    dog1.puppyName(name);
+
+
 
     }
 }
