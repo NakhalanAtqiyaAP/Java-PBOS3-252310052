@@ -3,8 +3,8 @@ public class Dog {
     public static void main(String[] args) {
         String breed;
         int age;
-        String color;
-
+        String color;  
+    }
         void barking(){
             System.out.println("Woof..woof");
         }
@@ -13,10 +13,11 @@ public class Dog {
             System.out.println("Woof... humph");
         }
 
-        void playTime(){
-            System.out.println("Woof..woof...woof");
+        void sleeping(){
+            System.out.println("snoring...Woof..woof...woof");
         }
 
-        
-    }
+        void puppyName(String name){
+            System.out.println("My puppy name is "+ name);
+        }
 }
