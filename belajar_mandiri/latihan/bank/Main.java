@@ -50,5 +50,6 @@ public class Main {
        }
         }while(input == 4);
     System.out.println("=== Terimakasih telah menggunakan jasa ATM ===");
+    scanner.close();
     }
 }
