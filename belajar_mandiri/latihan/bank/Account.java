@@ -12,7 +12,7 @@ public class Account {
         this.balance = balance;
     }
 
-    public double Deposit(double amount){
+    public double deposit(double amount){
         if(amount > 0){
              this.balance += amount;
              System.out.println("Deposit berhasil! Saldo baru: "+ this.balance);
@@ -23,7 +23,7 @@ public class Account {
         return this.balance;
     }   
 
-    public double WithDraw(double amount){
+    public double withDraw(double amount){
         if(amount <= this.balance && amount > 0){
             this.balance -= amount;
         }else{
@@ -32,7 +32,7 @@ public class Account {
         return this.balance;
     }
 
-    public void DisplayInfo(){
+    public void displayInfo(){
         System.out.println("=== ATM ===");
         System.out.println("Saldo Anda:");
     }
