@@ -42,11 +42,11 @@ public class Account {
         return this.accountNumber;
     }
 
-    public String ownerName(){
+    public String getOwnerName(){
         return this.ownerName;
     }
 
-    public double balance(){
+    public double getBalance(){
         return this.balance;
     }
 }
