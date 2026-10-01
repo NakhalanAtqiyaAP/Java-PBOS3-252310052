@@ -32,9 +32,11 @@ public class Account {
         return this.balance;
     }
 
-    public void displayInfo(){
-        System.out.println("=== ATM ===");
-        System.out.println("Saldo Anda:");
+    public void displayInfo() {
+        System.out.println("\n=== INFORMASI AKUN ===");
+        System.out.println("No. Rekening : " + this.accountNumber);
+        System.out.println("Nama Pemilik : " + this.ownerName);
+        System.out.println("Saldo Anda   : Rp " + this.balance);
     }
 
     //Getter
