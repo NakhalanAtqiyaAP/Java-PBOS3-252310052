@@ -48,7 +48,7 @@ public class Main {
             System.out.println("Pilihan menu tidak valid");
         }
        }
-        }while(input == 4);
+        }while(input != 4);
     System.out.println("=== Terimakasih telah menggunakan jasa ATM ===");
     scanner.close();
     }
