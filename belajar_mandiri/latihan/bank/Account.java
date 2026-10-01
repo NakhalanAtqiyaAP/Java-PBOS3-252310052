@@ -1,5 +1,8 @@
 package bank;
 
+import java.text.NumberFormat;
+import java.util.Locale;
+
 public class Account {
     private String accountNumber;
     private String ownerName;
@@ -33,10 +36,13 @@ public class Account {
     }
 
     public void displayInfo() {
+        Locale lokal = new Locale("id", "ID");
+        NumberFormat formatter = NumberFormat.getCurrencyInstance(lokal);
+        String formatUang = formatter.format(this.balance);
         System.out.println("\n=== INFORMASI AKUN ===");
         System.out.println("No. Rekening : " + this.accountNumber);
         System.out.println("Nama Pemilik : " + this.ownerName);
-        System.out.println("Saldo Anda   : Rp " + this.balance);
+        System.out.println("Saldo Anda   : Rp " + formatUang);
     }
 
     //Getter

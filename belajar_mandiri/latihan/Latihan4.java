@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.text.NumberFormat;
+import java.util.Locale;
 public class Latihan4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
