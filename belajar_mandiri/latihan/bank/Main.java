@@ -29,9 +29,8 @@ public class Main {
        System.out.print(":");
        input = scanner.nextInt();
        switch(input){
-        case 1 -> {
+        case 1 -> 
             selectedAccount.displayInfo();
-        }
         case 2 ->{
             System.out.print("Masukan jumlah deposit:");
             double deposit = scanner.nextDouble();
@@ -41,6 +40,12 @@ public class Main {
             System.out.println("Masukan jumlah penarikan:");
             double withDraw = scanner.nextDouble();
             selectedAccount.withDraw(withDraw);
+        }
+        case 4 ->{
+            System.out.println("Proses selesai");
+        }
+        default -> {
+            System.out.println("Pilihan menu tidak valid");
         }
        }
         }while(input == 4);
