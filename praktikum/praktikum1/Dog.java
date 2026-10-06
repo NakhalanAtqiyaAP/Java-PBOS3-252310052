@@ -1,3 +1,4 @@
+package praktikum.praktikum1;
 import java.util.Scanner;
 public class Dog {
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package praktikum.praktikum2;
 public class Tanah {
     Latihan2 data = new Latihan2();
 

@@ -1,3 +1,4 @@
+package praktikum.praktikum2;
 // package Latihan;
 
 public class Kubus {
