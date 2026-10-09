@@ -15,14 +15,21 @@ public class KonversiSuhu {
         System.out.println("4. Keluar");
         System.out.print("Silakan pilih: ");
         input = scanner.nextInt();
-        System.out.print("Berapa celcius:");
-        celcius = scanner.nextInt();
-            switch(input){
-                case 1 -> System.out.println(celciusToFahreheit(celcius) + "F"); 
-                case 2 -> System.out.println(celciusToReamur(celcius)+"R");
-                case 3 -> System.out.println(celciusToKelvin(celcius)+"K");
+        if (input >= 1 && input <= 3) {
+                System.out.print("Masukkan suhu Celcius: ");
+                celcius = scanner.nextDouble();
+
+                switch (input) {
+                    case 1 -> System.out.println("Hasil: " + celciusToFahreheit(celcius) + " °F"); 
+                    case 2 -> System.out.println("Hasil: " + celciusToReamur(celcius) + " °R");
+                    case 3 -> System.out.println("Hasil: " + celciusToKelvin(celcius) + " K");
+                }
+            }else if(input != 4){
+                System.out.println("Input tidak valid!");
             }
         }while(input != 4);
+        System.out.println("Program berakhir...");
+        scanner.close();
         
     }
 
