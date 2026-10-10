@@ -1,35 +1,50 @@
 public class Students {
-    int NPM;
-    String Fullname;
-    String ClassName;
-    int Semester;
-    float GPA;
+    private int NPM;
+    private String Fullname;
+    private String ClassName;
+    private int Semester;
+    private float GPA;
 
-    public int getNpm(int npm){
+    public void setNpm(int npm){
         this.NPM = npm;
+    }
+
+    public int getNpm(){
         return this.NPM;
     }
 
-    public String getFullname(String fullName){
+
+    public void setFullname(String fullName){
         this.Fullname = fullName;
+    }
+
+     public String getFullname(){
         return this.Fullname;
     }
 
 
-    public String getClassName(String className){
+    public void setClassName(String className){
         this.ClassName = className;
+    }
+     public String getClassName(){
         return this.ClassName;
     }
 
 
-    public int getSemester(int semester){
+    public void setSemester(int semester){
         this.Semester = semester;
+    }
+
+     public int getSemester(){
         return this.Semester;
     }
 
 
-    public float getGpa(float gpa){
+    public void setGpa(float gpa){
         this.GPA = gpa;
+    }
+
+      public float getGpa(){
         return this.GPA;
     }
 }
