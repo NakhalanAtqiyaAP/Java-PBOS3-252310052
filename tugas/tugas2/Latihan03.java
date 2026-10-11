@@ -1,6 +1,6 @@
 package tugas.tugas2;
 import java.util.Scanner;
-public class latihan03 {
+public class Latihan03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

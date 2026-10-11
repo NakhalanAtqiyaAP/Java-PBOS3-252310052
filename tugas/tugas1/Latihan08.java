@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class latihan08 {
+public class Latihan08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int npm,ipk,semester;
