@@ -3,7 +3,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class latihan10  {
+public class Latihan10  {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
