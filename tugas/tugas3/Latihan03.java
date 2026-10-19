@@ -5,6 +5,7 @@ public class Latihan03 {
     public static void main(String[] args) {
         Biodata mhs = new Biodata();
 
+        
         String inputName = JOptionPane.showInputDialog(
             null,
             "Masukan Nama Lengkap:",
