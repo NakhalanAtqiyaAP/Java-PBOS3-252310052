@@ -21,6 +21,7 @@ public class ArrayListApp {
 
         }while(stopper != 2);
 
+        mahasiswa.remove(1);
         System.out.println("=== Daftar Mahasiswa ===");
         for(String nama : mahasiswa){
             System.out.println("- "+nama);
