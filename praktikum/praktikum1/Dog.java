@@ -1,11 +1,11 @@
 package praktikum.praktikum1;
 import java.util.Scanner;
 public class Dog {
-    public static void main(String[] args) {
-        String breed;
-        int age;
-        String color;  
-    }
+    // public static void main(String[] args) {
+    //     String breed;
+    //     int age;
+    //     String color;  
+    // }
         void barking(){
             System.out.println("Woof..woof");
         }
