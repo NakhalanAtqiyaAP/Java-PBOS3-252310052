@@ -27,6 +27,13 @@ public class ArrayListApp {
             System.out.println("- "+nama);
         }
 
+        System.out.print("Nama paling akhir:");
+        mahasiswa.getLast();
+        mahasiswa.clear();
+         System.out.println("=== Setelah clear===");
+        for(String nama : mahasiswa){
+            System.out.println("- "+nama);
+        }
 
         
     }
