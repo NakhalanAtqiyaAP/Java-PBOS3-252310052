@@ -1,4 +1,4 @@
-package praktikum2;
+package praktikum.praktikum2;
 
 public class Segitiga {
 	public int a;
