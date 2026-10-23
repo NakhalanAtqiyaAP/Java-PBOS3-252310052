@@ -36,7 +36,6 @@ public class Quiz1 {
                 ));
             }
             case 2 -> {
-                
                 int number = Integer.parseInt(JOptionPane.showInputDialog(
                     null,
                     "Hapus hapus buku:",
