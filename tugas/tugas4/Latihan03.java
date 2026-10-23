@@ -1,8 +1,6 @@
 package tugas.tugas4;
 
-import java.util.Scanner;
 import  javax.swing.JOptionPane;
-import java.util.Arrays;
 
 public class Latihan03 {
     public static void main(String[] args) {
