@@ -1,5 +1,7 @@
 package tugas.tugas4;
 
+import java.util.Arrays;
+
 import  javax.swing.JOptionPane;
 
 public class Latihan04 {
@@ -30,9 +32,15 @@ public class Latihan04 {
         for(int i = 0; i < jumArray; i++){
             output.append("X ["+(i)+"] ="+ angka[i]+"\n"); 
         }
+
+        int terkecil = Arrays.stream(angka).min().getAsInt();
+        int terbesar = Arrays.stream(angka).max().getAsInt();
+
         JOptionPane.showMessageDialog(
             null, 
-            "Output:\n"+ output.toString(),
+            "Output:\n"+ output.toString()+"\n"+
+            "Nilai Terbesarnya adalah "+ terbesar+"\n"+
+            "Nilai Terkecilnya adalah "+terkecil,
             "Output",
             JOptionPane.INFORMATION_MESSAGE
         );
