@@ -16,6 +16,7 @@ public class Latihan03 {
         ));
 
         int[] angka = new int[jumArray];
+        StringBuilder output = new StringBuilder();
 
         for(int i = 0; i < jumArray; i++){
             System.out.print("Masukan angka ke-"+(i+1)+":");
@@ -28,9 +29,12 @@ public class Latihan03 {
             angka[i] = input;
         }
 
+        for(int i = 0; i < jumArray; i++){
+            output.append("X ["+(i)+"] ="+ angka[i]+"\n"); 
+        }
         JOptionPane.showMessageDialog(
             null, 
-            "Output:\n"+ Arrays.toString(angka),
+            "Output:\n"+ output.toString(),
             "Output",
             JOptionPane.INFORMATION_MESSAGE
         );
