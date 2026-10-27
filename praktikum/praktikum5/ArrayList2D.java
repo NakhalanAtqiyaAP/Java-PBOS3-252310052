@@ -8,7 +8,7 @@ public class ArrayList2D {
         Scanner scanner = new Scanner(System.in);
         ArrayList<ArrayList<Integer>> angka = new ArrayList<>();
         angka.add(new ArrayList<Integer>());        // row baru
-        
+
         angka.get(0).add(1);
         angka.get(0).add(2);
 
@@ -17,8 +17,9 @@ public class ArrayList2D {
 
         for(int i = 0; i < angka.size();i++){
             for(int j = 0; j < angka.get(i).size(); j++){
-                System.out.println(angka.get(i).get(j));
+                System.out.print(angka.get(i).get(j)+ " ");
             }
+            System.out.println();
         }
     }
 }
